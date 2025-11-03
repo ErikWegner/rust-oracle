@@ -714,7 +714,7 @@ impl Statement {
     }
 
     /// Binds values by position and executes the statement.
-    /// It will retunrs `Err` when the statemnet is a select statement.
+    /// It will returns `Err` when the statement is a select statement.
     ///
     /// See also [`Connection::execute`].
     ///
@@ -744,7 +744,7 @@ impl Statement {
     }
 
     /// Binds values by name and executes the statement.
-    /// It will retunrs `Err` when the statemnet is a select statement.
+    /// It will returns `Err` when the statement is a select statement.
     ///
     /// See also [`Connection::execute_named`].
     ///
